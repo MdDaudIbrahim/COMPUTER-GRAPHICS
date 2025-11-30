@@ -4,7 +4,6 @@ This repository contains Computer Graphics lab programs implemented using **Open
 
 ## 📚 Course Information
 - **Course**: Computer Graphics
-- **Student ID**: 22-49760-3
 - **Tools Used**: OpenGL, GLUT, Code::Blocks IDE
 
 ---
