@@ -1,0 +1,30 @@
+# Compiled executables
+*.exe
+*.out
+*.o
+*.obj
+
+# Code::Blocks project files
+*.cbp
+*.layout
+*.depend
+
+# Build directories
+bin/
+obj/
+Debug/
+Release/
+
+# IDE specific
+.vscode/
+.idea/
+*.user
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*~
