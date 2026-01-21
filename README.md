@@ -1,9 +1,10 @@
 # Computer Graphics Lab - OpenGL/GLUT Programs
 
-This repository contains Computer Graphics lab programs implemented using **OpenGL** and **GLUT** library in **C++**.
+This repository contains AIUB Computer Graphics lab programs implemented using **OpenGL** and **GLUT** library in **C++**.
 
 ## 📚 Course Information
 - **Course**: Computer Graphics
+- **Course Teacher**: DIPTA JUSTIN GOMES
 - **Tools Used**: OpenGL, GLUT, Code::Blocks IDE
 
 ---
@@ -11,22 +12,43 @@ This repository contains Computer Graphics lab programs implemented using **Open
 ## 📁 Project Structure
 
 ```
-├── 01_Basic_Primitives/
-│   └── basic_primitives.cpp      # Points, Lines, Triangles, Rectangles, Polygons
-│
-├── 02_DDA_Line_Algorithm/
-│   └── dda_line.cpp              # Digital Differential Analyzer Line Drawing
-│
-├── 03_Midpoint_Line_Algorithm/
-│   └── midpoint_line.cpp         # Bresenham's Midpoint Line Drawing Algorithm
-│
-├── 04_Circle_Algorithms/
-│   ├── midpoint_circle.cpp       # Midpoint Circle Drawing Algorithm
-│   ├── basic_circle.cpp          # Circle using Trigonometric Functions
-│   └── bangladesh_flag.cpp       # Practical Application - Bangladesh Flag
-│
-└── README.md
+COMPUTER-GRAPHICS/
+├── .gitignore               # Specifies intentionally untracked files to ignore.
+├── GraphicsProject/         # Contains various smaller, standalone graphics projects
+│   ├── InteractiveTransformations/
+│   │   ├── Makefile
+│   │   └── main.cpp
+│   ├── ClippingAlgorithms/
+│   │   ├── ...
+│   └── ...                  # More individual graphics concept implementations.
+├── MID-TERM/                # Dedicated to projects or assignments related to a mid-term milestone.
+│   ├── RasterizerProject/
+│   │   ├── Makefile
+│   │   └── main.cpp
+│   └── ...                  # Specific larger projects or coursework.
+└── README.md                # This file.
 ```
+
+
+## 📸 Output Examples
+## 📸 scenario 1
+<img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/e0dc709a-e949-4f34-a6a1-99f689e6d4f7" />
+<img width="1920" height="982" alt="image" src="https://github.com/user-attachments/assets/ac066bb5-ba15-484d-b9d9-6661b14d2ec9" />
+<img width="1920" height="987" alt="image" src="https://github.com/user-attachments/assets/348dabe7-0653-4d61-b1b0-ffaa637f24c3" />
+<img width="1920" height="990" alt="image" src="https://github.com/user-attachments/assets/2e20e750-e6b8-4dd1-875f-f536c2de29b7" />
+<img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/a32a1af4-7de9-4830-91d6-3acfa75632ad" />
+
+## 📸 scenario 2
+<img width="1917" height="984" alt="image" src="https://github.com/user-attachments/assets/08ebe17a-6617-4353-9df3-4aa610c022b3" />
+<img width="1920" height="981" alt="image" src="https://github.com/user-attachments/assets/e8b8c97f-5b87-4776-96bf-3927c7b2b448" />
+<img width="1920" height="984" alt="image" src="https://github.com/user-attachments/assets/5546a751-eafa-4476-8251-b97db0059366" />
+<img width="1920" height="985" alt="image" src="https://github.com/user-attachments/assets/e0789121-7873-43eb-89ea-aa7e575c076a" />
+
+## 📸 scenario 3
+<img width="1920" height="981" alt="image" src="https://github.com/user-attachments/assets/063afa6e-5afc-4bf3-98e4-fd32152871f4" />
+<img width="1920" height="988" alt="image" src="https://github.com/user-attachments/assets/07608ef1-02b2-40ea-85e2-b079a3dd4a18" />
+<img width="1920" height="972" alt="image" src="https://github.com/user-attachments/assets/2d1e7cdc-3ddd-402a-a13f-3f0b39570e4c" />
+
 
 ---
 
@@ -104,7 +126,7 @@ Uses 8-way symmetry to draw circles efficiently:
 
 ---
 
-## 📸 Output Examples
+
 
 | Program | Description |
 |---------|-------------|
